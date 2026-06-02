@@ -1,29 +1,56 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Nav } from "@/components/landing/Nav";
+import { Hero } from "@/components/landing/Hero";
+import {
+  Possibility,
+  NoTech,
+  HowItWorks,
+  WhiteLabelProof,
+  YourBrand,
+  Revenue,
+  FastLaunch,
+  Positioning,
+  FinalCTA,
+  Footer,
+} from "@/components/landing/Sections";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Aether — Launch your own AI business" },
+      {
+        name: "description",
+        content:
+          "Own a fully branded AI company while we handle infrastructure, automation and deployment. Build recurring revenue under your own brand.",
+      },
+      { property: "og:title", content: "Aether — Launch your own AI business" },
+      {
+        property: "og:description",
+        content:
+          "Own a fully branded AI company while we handle infrastructure, automation and deployment.",
+      },
     ],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
+    <div className="min-h-screen bg-background text-foreground antialiased">
+      <Nav />
+      <main>
+        <Hero />
+        <Possibility />
+        <NoTech />
+        <HowItWorks />
+        <WhiteLabelProof />
+        <YourBrand />
+        <Revenue />
+        <FastLaunch />
+        <Positioning />
+        <FinalCTA />
+      </main>
+      <Footer />
     </div>
   );
 }
