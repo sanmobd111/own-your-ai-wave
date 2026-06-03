@@ -40,7 +40,7 @@ export function Hero() {
             className="font-display mt-6 text-5xl leading-[0.95] tracking-tight md:text-7xl lg:text-[5.5rem]"
           >
             Launch your own{" "}
-            <span className="text-gradient-emerald">AI business</span>
+            <span className="text-gradient-emerald">AI Bot</span>
             <br />
             <span className="text-muted-foreground italic">before everyone else.</span>
           </motion.h1>
@@ -68,7 +68,7 @@ export function Hero() {
               href="#cta"
               className="group inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-emerald)] px-6 py-3.5 text-sm font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition hover:scale-[1.02]"
             >
-              Start my AI business
+              Purchase AI Bot
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
             </a>
             <a
