@@ -17,13 +17,13 @@ import {
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Aether — Launch your own AI business" },
+      { title: "AI Bot — Launch your own AI Bot" },
       {
         name: "description",
         content:
           "Own a fully branded AI company while we handle infrastructure, automation and deployment. Build recurring revenue under your own brand.",
       },
-      { property: "og:title", content: "Aether — Launch your own AI business" },
+      { property: "og:title", content: "AI Bot — Launch your own AI Bot" },
       {
         property: "og:description",
         content:

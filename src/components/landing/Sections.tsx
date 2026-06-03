@@ -578,7 +578,7 @@ export function FinalCTA() {
               href="#"
               className="group inline-flex items-center gap-2 rounded-full bg-[image:var(--gradient-emerald)] px-7 py-4 text-sm font-medium text-primary-foreground shadow-[var(--shadow-glow)] transition hover:scale-[1.02]"
             >
-              Start my AI business
+              Purchase AI Bot
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
             </a>
             <a
@@ -602,9 +602,9 @@ export function Footer() {
     <footer className="border-t border-border/40 px-6 py-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-xs text-muted-foreground md:flex-row">
         <div className="font-display text-base text-foreground">
-          Aether<span className="text-gradient-gold">.</span>
+          AI Bot
         </div>
-        <div>© {new Date().getFullYear()} Aether Operator Network · Own the future.</div>
+        <div>© {new Date().getFullYear()} AI Bot · Own the future.</div>
       </div>
     </footer>
   );
